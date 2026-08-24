@@ -1,0 +1,7 @@
+path: /home/mg/桌面/weed-yolo/data/yolo_pose
+train: images/train
+val: images/val
+names:
+  0: crop
+  1: weed
+kpt_shape: [1, 3]

@@ -1,0 +1,33 @@
+# ===== 训练材料 / 大数据（不入库） =====
+data/images/
+data/bboxes/
+data/labelIds/
+data/params/
+data/LICENCE.txt
+data/README.txt
+data/yolo/images/
+data/yolo/labels/
+data/yolo/stems.json
+data/yolo_pose/images/
+data/yolo_pose/labels/
+
+# ===== 模型权重 =====
+*.pt
+
+# ===== 训练输出 =====
+runs/
+
+# ===== 环境 / 工具 / 第三方仓库 =====
+venv/
+tools/
+cropandweed-dataset/
+
+# ===== 生成的 demo 输出（报告里已含精选样例） =====
+demo/
+demo_fix/
+demo_pose/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
